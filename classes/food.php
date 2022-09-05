@@ -10,6 +10,18 @@ class food extends products{
         $this->ingredient = $_ingredient;
         $this->type = $_type;
     }
+    public function getIngredient(){
+        return $this->ingredient;
+    }
+    public function setIngredient($_ingredient){
+        $this->ingredient = $_ingredient;
+    }
+    public function getType(){
+        return $this->type;
+    }
+    public function setType($_type){
+        $this->type = $_type;
+    }
 }
 
 
