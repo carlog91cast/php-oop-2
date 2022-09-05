@@ -6,10 +6,13 @@
 
         function __construct($_name,$_mail,$_cart_date,$_discount)
         {
-            parent::__construct($_name,$_mail,$_cart_date,$_discount);
-            $this->discount = 20;
+            parent::__construct($_name,$_mail,$_cart_date);
+            $this->discount = $_discount;
         }
-        public function GetDiscount(){
+        public function getDiscount(){
             return $this->discount;
+        }
+        public function setDiscount($_discount){
+            $this->discount = $_discount;
         }
     }
