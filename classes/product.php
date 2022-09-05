@@ -41,7 +41,12 @@ class products{
         return $this->animalGenre;
     }
     public function setPrice($_price){
-        $this->price = $_price;
+        if ($this->discount = 0) {
+            $this->price = $_price;
+        } else {
+            $this->price = ($_price -  $this->discountRegistered) / 100;
+        
+        }
     }
 
 }
