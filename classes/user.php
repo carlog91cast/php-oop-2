@@ -25,7 +25,7 @@ class user {
     }
 
     public function addProds($product){
-        $this->choosenProducts[] = $product;
+        array_push($this->choosenProducts,$product);
     }
 }
 

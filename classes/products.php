@@ -17,19 +17,19 @@ class products{
         return $this->name;
     }
     public function setName($_name){
-        $this->name = $_name
+        $this->name = $_name;
     }
     public function getBrand(){
         return $this->brand;
     }
     public function setBrand($_brand){
-        $this->brand = $_brand
+        $this->brand = $_brand;
     }
     public function getAnimalGenre(){
         return $this->animalGenre;
     }
     public function setAnimalGenre($_animalGenre){
-        $this->animalGenre = $_animalGenre
+        $this->animalGenre = $_animalGenre;
     }
 
 }
