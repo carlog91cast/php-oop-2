@@ -2,16 +2,20 @@
 include_once __DIR__ . '/food.php';
 include_once __DIR__ . '/games.php';
 include_once __DIR__ . '/cleaning_prod.php';
+include_once __DIR__ . '/user.php';
+
 class products{
     protected $name;
     protected $brand;
     protected $animalGenre;
+    protected $price;
 
-    function __construct($_name, $_brand, $_animalGenre)
+    function __construct($_name, $_brand, $_animalGenre, $_price)
     {
         $this->name = $_name;
         $this->brand = $_brand;
         $this->animalGenre = $_animalGenre;
+        $this->price = $_price;
 
     }
 
@@ -32,6 +36,12 @@ class products{
     }
     public function setAnimalGenre($_animalGenre){
         $this->animalGenre = $_animalGenre;
+    }
+    public function getPrice(){
+        return $this->animalGenre;
+    }
+    public function setPrice($_price){
+        $this->price = $_price;
     }
 
 }

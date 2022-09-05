@@ -5,8 +5,8 @@ class cleaningProd extends products{
     protected $weight;
     protected $bodyPart;
 
-    function  __construct($_name, $_brand, $_animalGenre,$_weight,$_bodyPart){
-        parent:: __construct($_name, $_brand, $_animalGenre);
+    function  __construct($_name, $_brand, $_animalGenre, $_price,$_weight,$_bodyPart){
+        parent:: __construct($_name, $_brand, $_animalGenre, $_price);
         $this->weight = $_weight;
         $this->bodyPart = $_bodyPart;
     

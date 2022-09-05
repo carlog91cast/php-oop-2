@@ -6,8 +6,8 @@ class games extends products{
     protected $color;
     protected $function;
 
-    function  __construct($_name, $_brand, $_animalGenre,$_shape,$_color,$_function){
-        parent:: __construct($_name, $_brand, $_animalGenre);
+    function  __construct($_name, $_brand, $_animalGenre,$_price,$_shape,$_color,$_function){
+        parent:: __construct($_name, $_brand, $_animalGenre, $_price);
         $this->shape = $_shape;
         $this->color = $_color;
         $this->function = $_function;

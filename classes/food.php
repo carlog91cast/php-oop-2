@@ -5,8 +5,8 @@ class food extends products{
     protected $ingredient;
     protected $type;
 
-    function  __construct($_name, $_brand, $_animalGenre,$_ingredient,$_type){
-        parent:: __construct($_name, $_brand, $_animalGenre);
+    function  __construct($_name, $_brand, $_animalGenre, $_price,$_ingredient,$_type){
+        parent:: __construct($_name, $_brand, $_animalGenre, $_price);
         $this->ingredient = $_ingredient;
         $this->type = $_type;
     }
