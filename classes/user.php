@@ -1,7 +1,8 @@
 <?php
 
-include_once __DIR__ . '/registered_user.php';
-include_once __DIR__ . '/unregistered_user.php';
+include_once __DIR__ . '/registeredUser.php';
+include_once __DIR__ . '/unregisteredUser.php';
+include_once __DIR__ . '/product.php';
 class user {
     protected $name;
     protected $mail;

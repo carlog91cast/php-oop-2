@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/classes/products.php';
+include __DIR__ . '/classes/product.php';
 include __DIR__ . '/classes/user.php';
 
 echo 'prova';

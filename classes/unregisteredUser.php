@@ -1,7 +1,7 @@
 <?php
     include_once __DIR__ . '/user.php';
 
-    class registeredUser extends user{
+    class unregisteredUser extends user{
         protected $discount;
 
         function __construct($_name,$_mail,$_cart_date,$_discount)

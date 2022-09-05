@@ -1,7 +1,7 @@
 <?php
 include_once __DIR__ . '/food.php';
-include_once __DIR__ . '/games.php';
-include_once __DIR__ . '/cleaning_prod.php';
+include_once __DIR__ . '/game.php';
+include_once __DIR__ . '/cleaningProd.php';
 include_once __DIR__ . '/user.php';
 
 class products{
@@ -15,7 +15,7 @@ class products{
         $this->name = $_name;
         $this->brand = $_brand;
         $this->animalGenre = $_animalGenre;
-        $this->price = $_price;
+        $this->setPrice($_price);
 
     }
 

@@ -1,6 +1,6 @@
 <?php 
 
-include_once __DIR__ . '/products.php';
+include_once __DIR__ . '/product.php';
 class games extends products{
     protected $shape;
     protected $color;
