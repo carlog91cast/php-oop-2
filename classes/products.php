@@ -1,5 +1,7 @@
 <?php
-
+include_once __DIR__ . '/food.php';
+include_once __DIR__ . '/games.php';
+include_once __DIR__ . '/cleaning_prod.php';
 class products{
     protected $name;
     protected $brand;

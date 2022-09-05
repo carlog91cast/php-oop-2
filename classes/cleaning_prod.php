@@ -1,7 +1,7 @@
 <?php 
 
 include_once __DIR__ . '/products.php';
-class games extends products{
+class cleaningProd extends products{
     protected $weight;
     protected $bodyPart;
 
@@ -24,6 +24,8 @@ class games extends products{
         $this->bodyPart = $_bodyPart;
     }
 }
+
+
 
 
 

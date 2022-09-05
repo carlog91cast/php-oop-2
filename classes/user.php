@@ -1,4 +1,7 @@
 <?php
+
+include_once __DIR__ . '/registered_user.php';
+include_once __DIR__ . '/unregistered_user.php';
 class user {
     protected $name;
     protected $mail;
